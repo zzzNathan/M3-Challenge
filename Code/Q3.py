@@ -67,5 +67,5 @@ for set in data:
 plt.figure(figsize=(10,6))
 plt.plot(allTimes, HIValues, marker ="x")
 plt.xlabel("Time")
-plt.ylabel("Heat Index (C)")
+plt.ylabel("Heat Index (F)")
 plt.show()
