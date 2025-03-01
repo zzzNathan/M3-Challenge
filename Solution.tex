@@ -441,7 +441,7 @@ Develop a system to determine a vulnerability score which can be assigned to a  
 \noindent
 \textbf{\sffamily We assume that the people in Birmingham are static, that is they have negligable movement throughout the entire 24 hours}
 
-\textit{Justification:} A person's body temperature will heavily affect the heat index which will be calculated so by minimizing ones movement the value of the heat index will be of higher accuracy, in other words it will provide a better representation of how hot a particular person feels throughout the 24 hour heat wave in Birmingham. 
+\textit{Justification:} A person's body temperature will heavily affect the heat index which will be calculated so by minimizing ones movement the value of the heat index will be of higher accuracy, in other words it will provide a better representation of how hot a particular person feels throughout the 24 hour heat wave in Birmingham.
 
 \noindent
 \textbf{\sffamily We assume that the power outages will occur during the summer months}
@@ -456,7 +456,7 @@ In order to achieve this we will make use of the Heat Index Equation where the k
 
 \[
 \begin{aligned}
-$\gamma$ &= -42.379 + 2.04901523 \ T + 10.14333127 \ \text{RH} \\
+\gamma &= -42.379 + 2.04901523 \ T + 10.14333127 \ \text{RH} \\
 &\quad -0.22475541 \ T \ \text{RH} - 0.00683783  \ T^2 \\
 &\quad - 0.05481717 \ \text{RH}^2 + 0.00122874\ T^2 \ \text{RH} \\
 &\quad + 0.00085282 \ T \ \text{RH}^2 -0.00000199 \ T^2 \text{RH}^2
@@ -466,7 +466,7 @@ $\gamma$ &= -42.379 + 2.04901523 \ T + 10.14333127 \ \text{RH} \\
 However, we need to calculate the Relative Humidity for each value of Humidity given, this is calculated by the following:
 
 \[
-$\epsilon$ = 100 \times \left[ \frac{\exp\left(\frac{17.625D_p}{243.04+D_p}\right)}{\exp\left(\frac{17.625T}{243.64+T}\right)} \right]
+\epsilon = 100 \times \left[ \frac{\exp\left(\frac{17.625D_p}{243.04+D_p}\right)}{\exp\left(\frac{17.625T}{243.64+T}\right)} \right]
 \]
 
 \subsection{Variables and parameters}
