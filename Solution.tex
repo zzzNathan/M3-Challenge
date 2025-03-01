@@ -466,7 +466,7 @@ In order to achieve this we will make use of the Heat Index Equation where the k
 However, we need to calculate the Relative Humidity for each value of Humidity given, this is calculated by the following \cite{relativeHumidity}:
 
 \[
-\epsilon = 100 \times \left[ \frac{\exp\left(\frac{17.625D_p}{243.04+D_p}\right)}{\exp\left(\frac{17.625T}{243.64+T}\right)} \right]
+\epsilon = 100 \times \left[ \frac{\exp\left(\frac{17.625$\rho$}{243.04+$\rho$}\right)}{\exp\left(\frac{17.625T}{243.64+T}\right)} \right]
 \]
 
 \subsection{Variables and parameters}
@@ -521,7 +521,7 @@ Here is the output of the code:
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.25]{Images/Q3.png}
-  \caption{Plot of the heat index against time.}
+  \caption{Plot of the heat index, in fahrenheight, against time.}
 \end{figure}
 \end{center}
 
